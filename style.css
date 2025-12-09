@@ -36,6 +36,7 @@ body
     opacity: 0;
     animation: slideRight 1s ease forwards ;
 }
+
 .navbar a
 {
    display: inline-block;
@@ -53,6 +54,7 @@ body
 {
     color: #0ef;
 }
+
 .home {
     position: relative;
     width: 100%;
