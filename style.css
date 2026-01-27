@@ -661,3 +661,96 @@ section{
     }
     
 }
+
+
+
+
+
+.certificates {
+    width: 100%;
+    padding: 80px 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.certificate-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.certificate-card {
+    background: #081b29;
+    border: 2px solid #0ef;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: .5s ease;
+    box-shadow: 0 0 15px rgba(0,238,255,.3);
+}
+
+.certificate-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.certificate-card h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.certificate-card p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.certificate-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px #0ef;
+}
+#cer{
+    padding-top: 50px;
+    padding-left: 50px;
+    position: fixed;
+}
+
+.projects{
+    text-align: center;
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    margin-top: 50px;
+    padding-top: 100px;
+}
+
+.project-card{
+    background: #081b29;
+    border: 2px solid #0ef;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    transition: .4s;
+    box-shadow: 0 0 15px rgba(0,238,255,.3);
+    padding-top: 50px;
+}
+
+.project-card h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.project-card p{
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.project-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px #0ef;
+}
