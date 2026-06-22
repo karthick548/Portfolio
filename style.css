@@ -237,6 +237,9 @@ section{
 .Technical-bars .bar .info{
     margin-bottom: 5px;
 }
+#skill{
+    padding-top: 60px;
+}
 
 .Technical-bars .bar .info span{
    font-size: 17px;
@@ -282,14 +285,17 @@ section{
 .progress-line.javascript span{
     width: 70%;
 }
+.progress-line.react span{
+    width: 70%;
+}
 .progress-line.python span{
-    width: 80%;
+    width: 50%;
 }
 .progress-line.mysql span{
-    width: 75%;
+    width: 45%;
 }
 .progress-line.java span{
-    width: 80%;
+    width: 50%;
 }
 .progress-line span::after{
     position: absolute;
@@ -314,15 +320,18 @@ section{
 .progress-line.javascript span::after{
     content: "70%";
 }
+.progress-line.react span::after{
+    content: "70%";
+}
 
 .progress-line.python span::after{
-    content: "80%";
+    content: "50%";
 }
 .progress-line.mysql span::after{
-    content: "75%";
+    content: "45%";
 }   
 .progress-line.java span::after{
-    content: "80%";
+    content: "50%";
 }
 
 .progress-line span::before{
